@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="{ name: 'Jobs', params: { jobId: jobProp.id } }">
+    <router-link :to="{ name: 'JobDetails', params: { jobId: jobProp.id } }">
         <section class="row card p-3 mt-3">
             <div class="col-3-p-3">
                 {{ jobProp.jobTitle }}
